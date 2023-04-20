@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200;1,400&family=Roboto:wght@100&family=Style+Script&display=swap');
+body{font-family: 'Poppins', sans-serif;}
+:root{
+    --yellow:#FF9600;
+    --primary-font:#566D7E;
+    --green:#17A43B;
+    --cream:#D9D9D9;
+    --pink:#FC6666;
+    --ash:#555555;
+    --grey:#ABBBC7;
+    --white:#FFFFFF;
+}
+
+/* topnav bar CSS start */
+.top_navbar{margin-top: 10px;}
+.top_navbar .main{display: flex;justify-content: space-between;align-items: center;}
+.top_navbar .right_content{display: flex;justify-content: center;align-items: center;}
+.top_navbar .right_content .first{padding-left: 25px;}
+.phase h4{text-transform: capitalize;color: var(--yellow);font-size: 20px;font-weight: 600;}
+.phase a{color: black;font-size: 18px;}
+.alpha button{border: 2px solid green;padding: 10px 15px;border-radius: 10px;font-size: 18px;}
+.delta button{border: 2px solid var(--yellow);}
+/* topnav bar CSS start */
+
+/* sub header css start */
+.sub_header{margin-top: 15px;}
+.sub_header .sub_head{background: var(--green);overflow: hidden;}
+.sub_head .nav{padding-left: 15%;}
+.sub_head .nav li a{font-size: 22px;color: white;text-transform: uppercase;padding-left: 22px;font-weight: 600;margin-top: 10px;}
+.sub_head .nav li a:hover{background: var(--green);}
+.sub_head .nav li input{border-width: 0 0 2px;border-bottom: 2px solid white;background: var(--green);}
+.sub_head::placeholder{font-size: 18px;color: rgba(255, 255, 255, 0.826);}
+.sub_head li i{color: white;}
+/* sub header css end */
+
+/* form CSS start */
+.total_content{background: white;border-radius: 10px;}
+.total_head h3{padding-left: 70px;padding-top: 25px;background: orange;padding-bottom: 20px;border-radius: 10px 10px 0px 0px;color: white;font-size: 25px;text-transform: capitalize;}
+.form_head{background: white;width: 25%;padding: 5px 5px;position: relative;top: 20px;left: 25px;text-align: center;color: grey;}
+.form_input input{padding: 20px 100px;border: 2px solid #8080807a;border-radius: 10px;}
+.form::placeholder{font-size: 18px;}
+.row textarea{margin-top: 40px;border-radius: 10px;border: 2px solid #8080807a;}
+form::placeholder{font-size: 18px;}
+.but{display: flex;justify-content: space-between;align-items: center;margin-top: 20px;margin-bottom: 20px;}
+.but2{padding-right: 90px;}
+.but1 a{padding: 10px 15px;background: #0098ff30;color: black;text-transform: capitalize;font-size: 20px;border-radius: 8px;}
+.but2 a{padding: 10px 15px;background: orange;color: white;text-transform: capitalize;font-size: 20px;border-radius: 8px;}
+/* form CSS End */
+
+/* banner css start */
+.banner{background: #0098ff30;}
+.banner_content{margin-left: 85px;}
+.banner_head h2{text-transform: uppercase;font-size: 25px;font-weight: 700;color: #000000a1;}
+.banner_head{padding-top: 15px;}
+.banner_para{padding-top: 10px;}
+.banner_para p{text-transform: capitalize;font-size: 18px;color: #000000a1;}
+.right_cont .head{background: var(--yellow);color: white;padding: 10px 20px;text-transform: capitalize;}
+.counting p{text-align: center;margin-top: 15px;color: black;font-size: 25px;font-weight: 500;text-transform: capitalize;}
+.counting span{color: var(--yellow);font-weight: 600;}
+.counting{margin-bottom: 30px;}
+.education{border-bottom: 2px solid #80808033;}
+.education .row{display: flex;justify-content: center;align-items: center;}
+.banner .edu .edu_image img{border: 4px solid grey;padding: 10px 15px;border-radius: 15px;margin-bottom: 15px;}
+.edu_number span{color: var(--yellow);font-size: 22px;font-weight: 600;}
+.edu_number{margin-bottom: 7px;}
+.edu_data{margin-bottom: 40px;}
+.edu_data span{color: grey;text-transform: uppercase;font-weight: 600;margin-bottom: 10px;}
+.offer{padding: 20px 35px;border-bottom: 2px solid #80808033;}
+.offer .offer_cont{text-align: center;border: 2px dashed blue;padding-bottom: 20px;}
+.offer_cont h1{font-size: 60px;font-weight: 800;color: rgba(87, 85, 85, 0.818);text-transform: uppercase;}
+.offer_cont p{font-size: 35px;text-transform: uppercase;font-weight: 600;color: rgba(87, 85, 85, 0.818);}
+.offer_cont span{font-size: 30px;text-transform: capitalize;color: rgba(87, 85, 85, 0.818);font-weight: 500;}
+.offer_cont a{background: var(--yellow);color: white;padding: 10px 20px;text-transform: uppercase;border-radius: 8px;font-size: 15px;}
+.review_cont{margin-top: 30px;}
+.review_cont h3{text-align: center;font-size: 25px;text-transform: capitalize;font-weight: 600;color: #0a0a62;padding-bottom: 15px;}
+.various{display: flex;justify-content: space-between;align-items: center;padding-right: 15px;padding-left: 15px;}
+.various_image img{padding-right: 20px;}
+.various_image span{font-size: 25px;color: grey;text-transform: capitalize;}
+.various_data span{font-size: 20px;color: grey;text-transform: capitalize;}
+.review p{padding-top: 20px;padding-left: 15px;color: grey;font-size: 18px;}
+.gurantee_image{text-align: center;}
+.gurantee_image img{margin: 30px;}
+.gurantee_head h4{text-align: center;color: var(--green);font-size: 25px;font-weight: 600;}
+.right_cont{background: white;box-shadow: 0px 0px 15px 4px #80808085;border-radius: 12px;}
+.head h2{border-radius: 10px 10px 0px 0px;}
+/* banner css end */
+
+/* form CSS start */
+.form-heading{padding: 10px 0px;}
+.form-heading h2{color: var(--primary-font); font-size: 30px; text-transform: capitalize;}
+.form-heading p{font-size: 12px; color: var(--primary-font); }
+.form-feature{display: flex; justify-content: center;}
+.form-head{padding: 6px 0px;background: var(--yellow);  border-radius: 10px 10px 0px 0px;}
+.column-main{background: var(--white); box-shadow: 0px 6px 12px #00000014; border-radius: 10px 10px 0px 0px;  padding-bottom: 20px;}
+.form-head h4{padding-left: 20px; text-transform: capitalize; color:var(--white); font-size: 30px; font-weight: 500;padding: 10px;}
+.form{padding: 20px;background: white;}
+.form input{padding: 25px 8px;}
+.form label{color: var(--ash); font-size: 16px; font-weight: 400; margin-left: 12px; padding: 0px 5px; transform: translateY(18px); background: var(--white);}
+.form input::placeholder{color: var(--grey); padding-left: 8px;}
+.form textarea{padding: 20px 0px 120px 16px; }
+.form-btn{display: flex; justify-content: space-between; padding: 10px;}
+#file{padding: 15px 30px;}
+.form-btn .submit{padding: 0px 45px; background: var(--yellow); color: var(--white); border: inherit; border-radius: 4px;}
+.from-btn .btn{border: 2px solid grey;color: gray;background: var(--white);padding: 8px 20px;border-radius: 8px;font-size: 20px;font-weight: bold;}
+.upload-btn-wrapper{position: relative;overflow: hidden;display: inline-block;}
+.upload-btn-wrapper input[type=file] {font-size: 100px;position: absolute;left: 0;right: 0;top: 0;opacity: 0;}
+.banner .btn{float: right;overflow: hidden;transform: translateY(-45px);margin-left: 5px;}
+/* form CSS end */
+
+/* toggle CSS start */
+.list ul li{list-style: none;text-transform: capitalize;font-size: 20px;border: 1px solid grey;margin: 20px;padding: 20px 10px;text-align: center;}
+.list ul li span{color: var(--yellow);}
+.list ul li:hover{background: #0a0a62;color: white;cursor: pointer;}
+.list_toggle{padding-top: 10px;font-size: 18px;padding-left: 15px;}
+.row1{box-shadow: 0px 0px 5px 0px rgb(210, 208, 208);margin-top: 40px;}
+.fa{color: var(--yellow);}
+.toggle .list_col{padding-top: 20px;}
+.toggle .btn{float: right;margin-top: 20px;}
+.toggle_head h2{color: #0a0a62;text-transform: uppercase;font-size: 40px;font-weight: 700;padding-left: 55px;}
+/* toggle CSS end */

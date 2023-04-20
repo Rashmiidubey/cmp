@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="top_navbar">
+        <div class="container">
+            <div class="main">
+                <div class="left">
+                    <div class="top_left_logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="right_bar">
+                    <div class="right_content">
+                        <div class="first phase">
+                            <h4>Email</h4>
+                            <a href="#">info@cpmhomeworkhelp.net</a>
+                        </div>
+                        <div class="first phase">
+                            <h4>TOLL FREE</h4>
+                            <a href="#">TFN Here</a>
+                        </div>
+                        <div class="first alpha">
+                            <button> Login
+                                <span><i class="fa fa-play-circle-o pulse"></i></span>
+                            </button>
+                        </div>
+                        <div class="first alpha delta">
+                            <button> Order Now
+                                <span><i class="fa fa-play-circle-o pulse"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sub_header">
+        <div class="container-fluid">
+            <div class="sub_head">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">our courses</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href=""><input type="text" placeholder="search now"><i class="fa fa-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container-fluid ">
+            <div class="banner_content">
+                <div class="banner_head">
+                    <h2>fill the form to place your order now!</h2>
+                </div>
+                <div class="banner_para">
+                    <p>have an assignment in mind?share the details by filling in the order form &<br>we'll start
+                        working on it right away!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="column-main">
+                        <div class="form-head">
+                            <h4>Place your order</h4>
+                        </div>
+                    </div>
+                    <form action="" class="form">
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="email">Enter Email</label>
+                                <input type="email" class="form-control" placeholder="Enter your email address">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="deadline">Choose deadline</label>
+                                <input type="datetime" class="form-control" placeholder="2022-12-22 08:00PM">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="subject">Enter subject</label>
+                                <input type="text" class="form-control" placeholder="Accounting">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">No. of pages/words</label>
+                                <input type="number" class="form-control" placeholder="pages/words" id="counting">
+                                <button class="btn plus-btn" onclick="increment()">+</button>
+                                <button class="btn minus-btn" onclick="decrement()">-</button>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">Reference style</label>
+                                <input type="email" class="form-control" placeholder="select reference style">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">coupon code</label>
+                                <input type="text" class="form-control" placeholder="Enter coupon code">
+                            </div>
+                            <div class="form-group">
+                                <label for="comments">Enter description </label>
+                                <textarea type="textarea" class="form-control"
+                                    placeholder="Write assignment description"></textarea>
+                            </div>
+                            <div class="upload-btn-wrapper">
+                                <button class="btn">Upload a file</button>
+                                <input type="file" name="myfile" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="right_cont">
+                        <div class="head">
+                            <h2>
+                                features
+                            </h2>
+                        </div>
+                        <div class="counting">
+                            <p>
+                                <span>30,000+</span> students can't can be wrong!
+                            </p>
+                        </div>
+                        <div class="education">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="edu">
+                                        <div class="edu_image">
+                                            <img src="images/order.png" alt="">
+                                        </div>
+                                        <div class="edu_number">
+                                            <span>93940</span>
+                                        </div>
+                                        <div class="edu_data">
+                                            <span>orders</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="edu">
+                                        <div class="edu_image">
+                                            <img src="images/order2.png" alt="">
+                                        </div>
+                                        <div class="edu_number">
+                                            <span>93940</span>
+                                        </div>
+                                        <div class="edu_data">
+                                            <span>orders</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="edu">
+                                        <div class="edu_image">
+                                            <img src="images/order3.png" alt="">
+                                        </div>
+                                        <div class="edu_number">
+                                            <span>93940</span>
+                                        </div>
+                                        <div class="edu_data">
+                                            <span>orders</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offer">
+                            <div class="offer_cont">
+                                <h1>10% off</h1>
+                                <p>your first order</p>
+                                <span>coupon code:</span> <a>firstorder01</a>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <div class="review_cont">
+                                <h3>student review</h3>
+                                <div class="various">
+                                    <div class="various_image">
+                                        <img src="images/order4.png" alt="">
+                                        <span>krishti</span>
+                                    </div>
+                                    <div class="various_data">
+                                        <span>April 05, 2021</span>
+                                    </div>
+                                </div>
+                                <p>
+                                    I enrolled on a Digital marketing course at My<br>learning. The course was for 6
+                                    months and they<br>taught me everything from basic to advance. The<br>best part
+                                    of the course is training using paid tools<br>and working on Live projects.
+                                </p>
+                                <div class="gurantee_image">
+                                    <img src="images/order5.png" alt="">
+                                    <img src="images/order6.png" alt="">
+                                </div>
+                                <div class="gurantee_head">
+                                    <h4>100% secure payment</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="toggle">
+        <div class="container">
+            <div class="toggle_head">
+                <h2>My dashboard</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="list_table">
+                        <div class="list">
+                            <ul>
+                                <li class="active" data-toggle="tab" id="one">unpaid <span>(1)</span></li>
+                                <li data-toggle="tab" id="two">inprogress <span>(1)</span></li>
+                                <li data-toggle="tab" id="three">completed <span>(1)</span></li>
+                                <li data-toggle="tab" id="four">cancelled <span>(1)</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row row1">
+                        <div class="col-lg-8 list_col">
+                            <div class="list_toggle">
+                                <p class="text-dark"><b>AP25461DHZ45646</b> <span>(NEW)</span></p>
+                                <p class="text-dark"><b>Subject</b>: Accounting / <b>Deadline </b> : Jan 11, 2023 21:00
+                                    PM</p>
+                                <p class="text-dark"><b>Subject</b>: Awaiting / <b>offers </b> : N/A</p>
+                                <p><i class="fa fa-envelope"></i> Send message</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="btn">
+                                <a href="#" class="btn btn-primary">Chat Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>
